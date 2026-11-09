@@ -1,88 +1,205 @@
 <!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#0b111a">
-<meta name="description" content="AGENTS by THE AGENCY — Universe System Architects (U.S.A.). A public Universe Quote Machine from the 3-2-1 Universe System, MONKISM × IGMUS.">
-<meta property="og:title" content="AGENTS — The Agency | Universe Quote Machine">
-<meta property="og:description" content="A public transmission from the 3-2-1 Universe System. Observe. Understand. Create.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://agents.3-2-1.ai/">
-<link rel="canonical" href="https://agents.3-2-1.ai/">
-<title>AGENTS — THE AGENCY | Universe Quote Machine</title>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>THE AGENCY | Business Universe Quote Calculator | 3-2-1.ai</title>
 <style>
-:root{color-scheme:dark;--text:#f2f2ef;--muted:#adbcc9;--line:#496172;--mint:#b4d7d7}
-*{box-sizing:border-box}
-html{min-height:100%;background:#0b111a}
-body{margin:0;min-height:100svh;color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif;background:radial-gradient(ellipse at 52% 37%,#213c4d 0%,#132332 34%,#0b111a 77%)}
-body::before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.20;background-image:linear-gradient(transparent 96%,#557283 97%);background-size:100% 6px}
-.shell{min-height:100svh;display:flex;flex-direction:column;max-width:1200px;margin:auto;padding:25px clamp(18px,4vw,50px)}
-header,footer{display:flex;align-items:center;justify-content:space-between;gap:16px;color:var(--muted);font-size:11px;letter-spacing:.15em;text-transform:uppercase}
-header{padding-bottom:23px;border-bottom:1px solid var(--line)}
-.logo{display:flex;align-items:center;gap:12px;font-weight:700;color:#e5ecef}.disc{width:40px;height:40px;border:1px solid #7a9da7;border-radius:50%;display:grid;place-items:center;color:#e6f2f1;letter-spacing:0;font-size:11px}
-main{flex:1;display:flex;align-items:center;justify-content:center;padding:42px 0}
-.transmission{width:min(100%,920px);text-align:center;position:relative;z-index:1;animation:arrive 1.1s ease 1.65s both}
-.eyebrow{font-size:11px;font-weight:600;color:var(--mint);text-transform:uppercase;letter-spacing:.3em}
-.kicker{font-size:12px;letter-spacing:.19em;color:var(--muted);text-transform:uppercase;margin:18px 0 0}
-.quote{font-family:Georgia,"Times New Roman",serif;font-size:clamp(32px,5.9vw,70px);font-weight:400;line-height:1.18;letter-spacing:-.025em;max-width:960px;margin:30px auto 27px;text-wrap:balance;min-height:1.2em;transition:opacity .18s ease}
-.quote.changing{opacity:.15}
-.credit{font-size:11px;color:#aebeca;letter-spacing:.23em;text-transform:uppercase;margin:0}
-.hairline{height:1px;width:84px;margin:35px auto;background:#668995}
-.controls{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:14px;margin-top:28px}
-button,.agency{font:inherit;font-size:12px;letter-spacing:.15em;text-transform:uppercase;text-decoration:none;cursor:pointer;padding:15px 23px;border-radius:3px;transition:background .15s ease,color .15s ease}
-button{background:#d5e3e3;color:#101a25;border:1px solid #d5e3e3;font-weight:700}button:hover{background:#fff}button:active{transform:translateY(1px)}
-.agency{color:#d7e3e5;background:transparent;border:1px solid #6d8b98}.agency:hover{background:#253a47}
-button:focus-visible,a:focus-visible{outline:3px solid #fcf4b5;outline-offset:4px}
-footer{border-top:1px solid var(--line);padding-top:20px;line-height:1.5}
-.intro{position:fixed;z-index:10;inset:0;background:radial-gradient(ellipse at center,#20384a 0%,#0b111a 72%);display:grid;place-items:center;text-align:center;padding:20px;pointer-events:none;animation:introExit 1.2s ease 1.65s both}
-.intro-inner{animation:introIn .7s ease both}.intro h1{font-size:clamp(48px,10vw,130px);font-weight:400;letter-spacing:.08em;margin:14px 0}.intro .role{font-size:clamp(12px,2vw,19px);letter-spacing:.27em;text-transform:uppercase}.intro .id{letter-spacing:.3em;color:var(--mint);font-size:13px;margin-top:18px}.intro .brand-credit{color:var(--muted);letter-spacing:.2em;font-size:11px;margin-top:32px}
-@keyframes introIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
-@keyframes introExit{0%,70%{opacity:1;visibility:visible}100%{opacity:0;visibility:hidden}}
-@keyframes arrive{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
-@media(max-width:650px){header,footer{font-size:9px;letter-spacing:.08em}header .right{display:none}footer{flex-wrap:wrap;justify-content:center;text-align:center}.quote{font-size:clamp(32px,8vw,50px)}.intro h1{letter-spacing:.035em}}
-@media(prefers-reduced-motion:reduce){.intro{display:none}.transmission{animation:none}.quote{transition:none}}
-</style>
-</head>
-<body>
-<!-- This single file is the entire functioning website. No external JavaScript, API, or fonts. -->
-<div class="intro" aria-hidden="true"><div class="intro-inner">
-<div class="eyebrow">3-2-1 Universe System</div>
-<h1>THE AGENCY</h1>
-<div class="role">Universe System Architects</div>
-<div class="id">U.S.A.</div>
-<div class="brand-credit">MONKISM × IGMUS</div>
-</div></div>
-<div class="shell">
-<header><div class="logo"><span class="disc">321</span><span>AGENTS · 3-2-1 Universe System</span></div><div class="right">Official public transmission</div></header>
-<main id="main"><section class="transmission" aria-label="Universe Quote Machine">
-<div class="eyebrow">THE AGENCY · U.S.A.</div>
-<p class="kicker">A transmission from the universe</p>
-<blockquote class="quote" id="quote" aria-live="polite">“We Don’t Build Worlds. We Create Universes.”</blockquote>
-<p class="credit">Observe · Understand · Create</p>
-<div class="hairline"></div>
-<div class="controls"><button id="next" type="button">Another Transmission</button><a class="agency" href="https://3-2-1.ai/agency" rel="noopener">Explore The Agency ↗</a></div>
-</section></main>
-<footer><span>agents.3-2-1.ai</span><span>MONKISM × IGMUS</span><span>One Standard. Individual Identities. Evolving Intelligence.</span></footer>
-</div>
+:root{--bg:#0c1520;--panel:#152536;--ink:#f2f5f7;--muted:#b5c5d0;--accent:#69d5be;--line:#375066}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,Segoe UI,sans-serif}
+main{max-width:1120px;margin:auto;padding:32px 18px 70px}header{border-bottom:1px solid var(--line);padding-bottom:24px;margin-bottom:26px}
+.kicker{color:var(--accent);font-size:12px;letter-spacing:.18em;font-weight:800}h1{font-size:clamp(29px,5vw,49px);line-height:1.1;margin:10px 0}h2{font-size:20px;margin:0 0 14px}
+p{color:var(--muted)}.layout{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(290px,.75fr);gap:20px}
+section,.result{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:22px;margin-bottom:16px}
+fieldset{border:0;padding:0;margin:0 0 18px}legend{font-weight:750;margin-bottom:8px}label{display:block;margin:10px 0 5px;font-size:14px}
+input,select,textarea{width:100%;background:#091621;border:1px solid #587184;border-radius:9px;color:var(--ink);padding:11px;font:inherit}
+input[type=checkbox]{width:auto;accent-color:var(--accent)}.row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.checks{display:grid;grid-template-columns:1fr 1fr;gap:4px 12px}.checks label{display:flex;align-items:center;gap:8px}
+button{background:var(--accent);border:0;border-radius:9px;padding:12px 14px;font:700 14px system-ui;cursor:pointer;color:#08212a;margin:5px 5px 5px 0}
+button.secondary{background:#304a60;color:white}.estimate{font-size:38px;font-weight:850;line-height:1.1;color:var(--accent)}
+.range{font-size:18px;font-weight:700;color:white}.fine{font-size:12px;color:var(--muted)}
+dl{display:grid;grid-template-columns:1fr auto;gap:6px 10px;font-size:14px}dt{color:var(--muted)}dd{margin:0;font-weight:700}
+aside{position:sticky;top:16px;align-self:start}.compare{display:grid;gap:8px;margin:10px 0 15px}.compare button{margin:0;background:#203b4c;color:#fff;border:1px solid #476577;text-align:left;display:flex;justify-content:space-between;gap:8px}.compare button.active{border-color:var(--accent);background:#24554f}.compare button span{font-weight:800;color:#90f3da}.warn{border-left:3px solid #eabf7e;padding:10px 12px;background:#302d27;color:#fff4db;font-size:13px}
+#feedback{min-height:24px;color:var(--accent);font-size:13px}
+@media(max-width:800px){.layout{grid-template-columns:1fr}aside{position:static}}@media(max-width:480px){.row,.checks{grid-template-columns:1fr}}
+@media print{body{background:white;color:black;font-size:11pt}main{padding:0}.layout{display:block}section,.result{background:white;color:black;border:1px solid #ccc;break-inside:avoid}p,.fine,dt{color:#333}input,select,textarea{color:black;background:white;border:1px solid #aaa}.estimate{color:black}aside{position:static}button,.no-print{display:none!important}header{border-color:#ccc}}
+
+/* Intro displays once for a short moment, then leaves the calculator usable. */
+#agencyIntro{position:fixed;inset:0;z-index:50;display:grid;place-items:center;background:#07101b;color:#f7fbff;transition:opacity .7s ease,visibility .7s ease;text-align:center;padding:24px}
+#agencyIntro.hide{opacity:0;visibility:hidden;pointer-events:none}
+.intro-inner{max-width:760px}.intro-eyebrow{text-transform:uppercase;letter-spacing:.24em;color:#8ee8d0;font-size:12px;font-weight:700}.intro-title{font-size:clamp(40px,8vw,86px);margin:12px 0;letter-spacing:.08em;line-height:1.05}.intro-sub{font-size:clamp(16px,2.5vw,23px);color:#e7f2f7;letter-spacing:.04em}.intro-foot{color:#a8bbcd;font-size:13px;letter-spacing:.12em;margin-top:30px}.intro-line{height:1px;background:linear-gradient(90deg,transparent,#69d5be,transparent);margin:28px 0}
+.topbar{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:12px 18px;border-bottom:1px solid #375066;background:#0b1827;flex-wrap:wrap}.topbar .brand{font-size:12px;font-weight:750;letter-spacing:.12em;color:#dbf7ed}.agency-link{display:inline-block;text-decoration:none;background:#69d5be;color:#08212a;border-radius:8px;padding:10px 14px;font-size:13px;font-weight:800}.agency-link:hover,.agency-link:focus{background:#a9f2df}.topbar a{white-space:nowrap}.launch-note{color:#cbdde3;font-size:13px;margin-top:12px}.result .agency-link{margin:7px 0 10px}.intro-skip{margin-top:22px;background:transparent;border:1px solid #647e8c;color:white}
+@media(prefers-reduced-motion:reduce){#agencyIntro{transition:none}}
+@media print{#agencyIntro,.topbar{display:none!important}}
+
+/* Four accessible, fully local skins. Theme state never changes pricing inputs. */
+:root,body[data-theme="default"]{--field:#091621;--field-border:#7892a3;--button-bg:#69d5be;--button-ink:#08212a;--secondary-bg:#304a60;--secondary-ink:#fff;--compare-bg:#203b4c;--compare-active:#24554f;--compare-ink:#fff;--compare-price:#a6ffe2;--warning-bg:#302d27;--warning-ink:#fff4db;--topbar-bg:#0b1827;--brand-ink:#dbf7ed;--range-ink:#fff;--link-hover:#a9f2df;--focus:#f6d56f}
+body[data-theme="bullish"]{--bg:#020c06;--panel:#0b2412;--ink:#e7ffeb;--muted:#b6e6bf;--accent:#83ff9e;--line:#457c53;--field:#04150a;--field-border:#61956d;--button-bg:#83ff9e;--button-ink:#06230c;--secondary-bg:#184e2a;--secondary-ink:#f5fff5;--compare-bg:#102f1b;--compare-active:#245b32;--compare-ink:#f1fff4;--compare-price:#9dffb2;--warning-bg:#24391c;--warning-ink:#f4ffcf;--topbar-bg:#05180b;--brand-ink:#ddffe2;--range-ink:#ecfff0;--link-hover:#bdffca;--focus:#faff9c}
+body[data-theme="peaksun"]{--bg:#fff0aa;--panel:#fff9e9;--ink:#132d4c;--muted:#334c67;--accent:#9d3e00;--line:#967335;--field:#ffffff;--field-border:#65758a;--button-bg:#0c497d;--button-ink:#ffffff;--secondary-bg:#b64b09;--secondary-ink:#ffffff;--compare-bg:#154876;--compare-active:#963b04;--compare-ink:#ffffff;--compare-price:#fff1a5;--warning-bg:#fff0d6;--warning-ink:#643508;--topbar-bg:#0b4474;--brand-ink:#fff7cd;--range-ink:#142c4a;--link-hover:#155b95;--focus:#d13e00}
+body[data-theme="bbq"]{--bg:#ffc4d7;--panel:#ffe6ee;--ink:#151b16;--muted:#304737;--accent:#145137;--line:#426a53;--field:#fffafb;--field-border:#426e55;--button-bg:#145137;--button-ink:#ffffff;--secondary-bg:#27543f;--secondary-ink:#ffffff;--compare-bg:#214a36;--compare-active:#103e2b;--compare-ink:#ffffff;--compare-price:#f9e7a9;--warning-bg:#ffe7c5;--warning-ink:#4b2b18;--topbar-bg:#174b34;--brand-ink:#ffe4ed;--range-ink:#172c20;--link-hover:#246a4b;--focus:#6c2053}
+body{transition:background-color .22s ease,color .22s ease}
+input:not([type="checkbox"]),select,textarea{background:var(--field);border-color:var(--field-border);color:var(--ink)}
+input::placeholder,textarea::placeholder{color:var(--muted);opacity:1}
+button:not(.intro-skip):not(.theme-btn){background:var(--button-bg);color:var(--button-ink)}
+button.secondary{background:var(--secondary-bg)!important;color:var(--secondary-ink)!important}
+.range{color:var(--range-ink)}
+.compare button:not(.theme-btn){background:var(--compare-bg);color:var(--compare-ink);border:1px solid var(--line)}
+.compare button.active:not(.theme-btn){background:var(--compare-active);border:2px solid var(--accent)}
+.compare button span{color:var(--compare-price)}
+.warn{background:var(--warning-bg);color:var(--warning-ink);border-color:var(--accent)}
+.topbar{background:var(--topbar-bg);border-color:var(--line)}
+.topbar .brand{color:var(--brand-ink)}
+.topbar .brand-accent{color:var(--brand-ink)}
+.agency-link{background:var(--button-bg);color:var(--button-ink)}
+.agency-link:hover,.agency-link:focus{background:var(--link-hover);color:var(--button-ink)}
+.launch-note{color:var(--muted)}
+:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
+.theme-switcher{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.theme-label{color:var(--brand-ink);font-size:12px;font-weight:700;letter-spacing:.04em;margin-right:4px}
+.theme-btn{background:transparent;color:var(--brand-ink);border:1px solid currentColor;border-radius:8px;margin:0;padding:8px 10px;font:700 12px/1.2 system-ui;cursor:pointer;white-space:nowrap}
+.theme-btn[aria-pressed="true"]{background:var(--button-bg);border-color:var(--button-bg);color:var(--button-ink);box-shadow:0 0 0 2px var(--topbar-bg),0 0 0 3px var(--button-bg)}
+@media(max-width:720px){.topbar{align-items:flex-start}.theme-switcher{width:100%}.theme-btn{flex:1 1 auto}}
+@media print{body{background:white!important;color:black!important}section,.result{background:white!important;color:black!important} .theme-switcher{display:none!important} .range,.estimate{color:black!important}}
+
+</style></head><body>
+<div id="agencyIntro" role="presentation"><div class="intro-inner"><div class="intro-eyebrow">3-2-1 Universe System</div><div class="intro-title">THE AGENCY</div><div class="intro-sub">UNIVERSE SYSTEM ARCHITECTS · U.S.A.</div><div class="intro-line"></div><div class="intro-eyebrow">Business Universe Commission Quote Calculator</div><div class="intro-foot">MONKISM × IGMUS</div><button class="intro-skip" type="button" id="skipIntro">ENTER QUOTE CALCULATOR</button></div></div>
+<div class="topbar"><span class="brand">THE AGENCY <span class="brand-accent">/</span> COMMISSION QUOTE CALCULATOR</span>
+<div class="theme-switcher" role="group" aria-label="Choose website color skin"><span class="theme-label">SKIN</span><button type="button" class="theme-btn" data-skin="default" aria-pressed="true">Default</button><button type="button" class="theme-btn" data-skin="bullish" aria-pressed="false">Bullish</button><button type="button" class="theme-btn" data-skin="peaksun" aria-pressed="false">Peak Sun</button><button type="button" class="theme-btn" data-skin="bbq" aria-pressed="false">BBQ Mode</button></div>
+<a class="agency-link" href="https://3-2-1.ai/agency">Explore The Agency ↗</a></div>
+<main>
+<header><div class="kicker">THE AGENCY · UNIVERSE SYSTEM ARCHITECTS · MONKISM × IGMUS</div><h1>Business Universe Quote Calculator.</h1>
+<p>Selective, custom-built local business organizers for small businesses and industry leaders. Choose the edition, depth, infrastructure, and visual treatment that fit your work. Your estimate updates as you choose.</p><p class="launch-note">Calculate a preliminary commission estimate here. For official information and proposals, visit The Agency. No information is transmitted from this page.</p></header>
+<div class="layout"><div>
+<section><h2>01 / Your business</h2>
+<div class="row"><div><label for="business">Business / organization</label><input id="business" placeholder="Your business"></div>
+<div><label for="contact">Contact name</label><input id="contact" placeholder="Your name"></div></div>
+<div class="row"><div><label for="email">Reply email</label><input id="email" type="email" placeholder="you@example.com"></div>
+<div><label for="size">Size of operation</label><select id="size"><option value="1">Solo / owner-operated (×1.00)</option><option value="1.2">Small team (×1.20)</option><option value="1.55">Multiple locations / teams (×1.55)</option><option value="1.9">Complex operation (×1.90)</option></select></div></div>
+<label for="locations">Number of locations</label><select id="locations"><option value="1">1 location</option><option value="2">2 locations</option><option value="3">3 locations</option><option value="4">4 locations</option><option value="5">5 locations</option><option value="6">6 locations</option></select>
+<fieldset><legend>Industries (select all that apply)</legend><div class="checks" id="industries">
+<label><input type="checkbox" value="Bottle shop / taproom"> Bottle shop / taproom</label>
+<label><input type="checkbox" value="Restaurant / food service"> Restaurant / food service</label>
+<label><input type="checkbox" value="Retail"> Retail</label>
+<label><input type="checkbox" value="Real estate"> Real estate</label>
+<label><input type="checkbox" value="Interior design"> Interior design</label>
+<label><input type="checkbox" value="Trades / contracting"> Trades / contracting</label>
+<label><input type="checkbox" value="Creative / entertainment"> Creative / entertainment</label>
+<label><input type="checkbox" value="Nonprofit / community"> Nonprofit / community</label>
+<label><input type="checkbox" value="Other"> Other</label>
+</div></fieldset></section>
+<section><h2>02 / Pricing schedule &amp; edition</h2>
+<label for="ratePlan">Compare commission rate schedules</label><select id="ratePlan">
+<option value="monkism">MONKISM — independent artist / consulting rates</option>
+<option value="market">INDUSTRY REFERENCE — boutique custom software estimate</option>
+<option value="major">MAJOR CONTRACT — managed, high-assurance delivery estimate</option>
+</select><p class="fine">These are three different scopes and delivery assumptions, not identical work at different markups. Industry and Major are illustrative quoting models informed by published agency benchmarks; not official universal industry price lists.</p>
+
+<label for="edition">Starting edition</label><select id="edition">
+<option value="750">ORGANIZER — $750 · Local vault, directory, calendar, workflows</option>
+<option value="1750" selected>OPERATIONS — $1,750 · Organizer + UPSTAIRS and daily operating flow</option>
+<option value="3500">UNIVERSE — $3,500 · Operations + interactive visual environment</option>
+</select>
+<label for="depth">Customization depth</label><select id="depth"><option value="0">Essential — included</option><option value="600">Tailored — +$600</option><option value="1500">Bespoke — +$1,500</option></select>
+<label for="infra">Infrastructure complexity</label><select id="infra"><option value="0">Local files + Obsidian — included</option><option value="500">Local server + validated JSON — +$500</option><option value="1200">Local server + API feasibility/connector allowance — +$1,200</option></select>
+<label for="aesthetic">Aesthetic treatment</label><select id="aesthetic"><option value="0">Functional interface — included</option><option value="400">Branded visual identity — +$400</option><option value="1200">Illustrated business world — +$1,200</option></select>
+<label for="support">Optional ongoing support</label><select id="support"><option value="0">None — $0/month</option><option value="75">Light support — $75/month</option><option value="200">Managed support — $200/month</option></select></section>
+<section><h2>03 / Tell us what needs simplifying</h2>
+<label for="workflow">What are the three biggest workflow headaches?</label><textarea id="workflow" rows="4" placeholder="Inventory counts, delivery tracking, event planning..."></textarea>
+<fieldset><legend>What matters most?</legend><div class="checks" id="modules">
+<label><input type="checkbox" value="UPSTAIRS / Grocery List"> UPSTAIRS / Grocery List</label>
+<label><input type="checkbox" value="Hardware Store"> Hardware Store</label>
+<label><input type="checkbox" value="Calendar / events"> Calendar / events</label>
+<label><input type="checkbox" value="Directory / contacts"> Directory / contacts</label>
+<label><input type="checkbox" value="Deliveries"> Deliveries</label>
+<label><input type="checkbox" value="Local agents"> Local agents</label>
+<label><input type="checkbox" value="WATCH / animated environment"> WATCH / animated environment</label>
+<label><input type="checkbox" value="Shared multi-industry supplies"> Shared multi-industry supplies</label>
+</div></fieldset>
+<div class="row"><div><label for="pos">Existing inventory/POS software (name only)</label><input id="pos" placeholder="Optional"></div><div><label for="timeline">Ideal timeline</label><input id="timeline" placeholder="Optional"></div></div>
+<label for="notes">Anything else? Limits, budget, privacy needs, brand assets</label><textarea id="notes" rows="3" placeholder="Do not include passwords, account numbers, or confidential customer data."></textarea>
+<label><input id="consent" type="checkbox"> I agree to be contacted about this commission inquiry.</label>
+</section></div>
+<aside><div class="result" id="result"><div class="kicker">LIVE PLANNING ESTIMATE · USD</div><p style="margin:10px 0 5px">Estimated project subtotal <span class="fine" id="scheduleName"></span></p><div class="estimate" id="total">$0</div>
+<div class="range" id="range"></div><p class="fine">Indicative range (85%–125%). Not a binding quote. Optional support shown separately.</p>
+<dl id="breakdown"></dl><p class="fine">Compare all three schedules for your current choices:</p><div id="compareRates" class="compare"></div><div class="warn">MONKISM prices are your editable rates; the other schedules are illustrative project budgets informed by agency benchmarks, not guaranteed industry quotes. Taxes, travel, hosting, hardware, third-party charges and major custom integrations are excluded. No payment is taken here.</div>
+<p class="fine" id="monthly"></p>
+<a class="agency-link" href="https://3-2-1.ai/agency">Visit The Agency to Commission ↗</a><button type="button" class="secondary" id="printBtn">Print / Save PDF</button>
+<button type="button" class="secondary" id="jsonBtn">Download request JSON</button>
+<div id="feedback" role="status"></div>
+<p class="fine">This tool calculates locally in your browser. It does not submit personal information, take payments, or create a binding quote. Visit The Agency for official commissions.</p>
+</div></aside></div>
+<footer><p class="fine">PUBLIC COMMISSION ESTIMATOR · MONKISM × IGMUS · 3-2-1 UNIVERSE SYSTEM · Derived from supplied Version 1.2<br>Do not enter sensitive credentials or financial account information. A discovery call determines actual scope, deliverables, compatibility, and price.</p></footer></main>
 <script>
+'use strict';
+// Skin selection stays local; all form values and calculations remain untouched.
 (function(){
-  'use strict';
-  const quotes = ["We Don’t Build Worlds. We Create Universes.", "Observe. Understand. Create.", "Imagination is worth protecting.", "Intelligence should serve the individual.", "Individual identity. Collective capability.", "An idea is the beginning of an architecture.", "Human authority is part of the design.", "Build systems that leave room for imagination.", "Creativity does not require permission from convention.", "A universe is more than the sum of its tools.", "The work should guide the technology.", "Different expertise. Shared purpose.", "An independent mind deserves an independent record.", "The future can be individually commissioned.", "A great system makes room for individuality.", "Observe what exists. Understand what matters. Create what comes next."];
-  const quoteElement = document.getElementById('quote');
-  const nextButton = document.getElementById('next');
-  let currentIndex = 0;
-  nextButton.addEventListener('click', function(){
-    let nextIndex = Math.floor(Math.random() * (quotes.length - 1));
-    if (nextIndex >= currentIndex) nextIndex += 1;
-    currentIndex = nextIndex;
-    quoteElement.classList.add('changing');
-    window.setTimeout(function(){
-      quoteElement.textContent = '“' + quotes[currentIndex] + '”';
-      quoteElement.classList.remove('changing');
-    }, 160);
-  });
+ const allowed=['default','bullish','peaksun','bbq'];
+ let chosen='default';
+ try{const saved=localStorage.getItem('agents321-theme');if(allowed.includes(saved))chosen=saved;}catch(e){}
+ const apply=skin=>{
+  document.body.dataset.theme=skin;
+  document.querySelectorAll('.theme-btn').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.skin===skin)));
+  try{localStorage.setItem('agents321-theme',skin);}catch(e){}
+ };
+ document.querySelectorAll('.theme-btn').forEach(button=>button.addEventListener('click',()=>apply(button.dataset.skin)));
+ apply(chosen);
 })();
-</script>
-</body>
-</html>
+const $=id=>document.getElementById(id);
+const money=n=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0}).format(n);
+const checked=id=>Array.from(document.querySelectorAll('#'+id+' input:checked')).map(el=>el.value);
+const selected=id=>$(id).options[$(id).selectedIndex].text.split(' — ')[0];
+const RATE_SCHEDULES={
+ monkism:{label:'MONKISM',edition:[750,1750,3500],industry:450,location:250,depth:[0,600,1500],infra:[0,500,1200],aesthetic:[0,400,1200],support:[0,75,200]},
+ market:{label:'INDUSTRY REFERENCE',edition:[3000,8500,18000],industry:1800,location:1100,depth:[0,2500,6500],infra:[0,2500,6500],aesthetic:[0,1500,5000],support:[0,250,750]},
+ major:{label:'MAJOR CONTRACT',edition:[10000,25000,55000],industry:6000,location:3500,depth:[0,7500,18000],infra:[0,9000,24000],aesthetic:[0,5000,16000],support:[0,900,2500]}
+};
+const idx=id=>$(id).selectedIndex;
+function quote(plan){
+ const r=RATE_SCHEDULES[plan], edition=r.edition[idx('edition')],size=Number($('size').value), industries=checked('industries');
+ const adjusted=edition*size, extraIndustries=Math.max(0,industries.length-1)*r.industry,extraLocations=(Number($('locations').value)-1)*r.location;
+ const depth=r.depth[idx('depth')],infra=r.infra[idx('infra')],aesthetic=r.aesthetic[idx('aesthetic')],support=r.support[idx('support')];
+ const lines=[['Edition × size',adjusted],['Additional industries',extraIndustries],['Additional locations',extraLocations],['Customization',depth],['Infrastructure',infra],['Aesthetics',aesthetic]];
+ return {total:lines.reduce((n,row)=>n+row[1],0),support,lines};
+}
+function compute(){
+ const plan=$('ratePlan').value,calc=quote(plan),total=calc.total,support=calc.support,industries=checked('industries');
+ const schedule=RATE_SCHEDULES[plan];
+ const editionNames=['ORGANIZER','OPERATIONS','UNIVERSE'];
+ Array.from($('edition').options).forEach((opt,i)=>opt.textContent=editionNames[i]+' — '+money(schedule.edition[i]));
+ Array.from($('depth').options).forEach((opt,i)=>opt.textContent=['Essential','Tailored','Bespoke'][i]+' — '+(i?'+'+money(schedule.depth[i]):'included'));
+ Array.from($('infra').options).forEach((opt,i)=>opt.textContent=['Local files + Obsidian','Local server + validated JSON','Local server + API connector allowance'][i]+' — '+(i?'+'+money(schedule.infra[i]):'included'));
+ Array.from($('aesthetic').options).forEach((opt,i)=>opt.textContent=['Functional interface','Branded visual identity','Illustrated business world'][i]+' — '+(i?'+'+money(schedule.aesthetic[i]):'included'));
+ Array.from($('support').options).forEach((opt,i)=>opt.textContent=['None','Light support','Managed support'][i]+' — '+money(schedule.support[i])+'/month');
+ $('scheduleName').textContent='· '+RATE_SCHEDULES[plan].label;
+ $('total').textContent=money(total);$('range').textContent=money(Math.round(total*.85))+' – '+money(Math.round(total*1.25));
+ $('breakdown').innerHTML=calc.lines.map(([name,n])=>'<dt>'+name+'</dt><dd>'+money(n)+'</dd>').join('');
+ $('compareRates').innerHTML=Object.keys(RATE_SCHEDULES).map(k=>'<button type="button" data-rate="'+k+'" class="'+(k===plan?'active':'')+'">'+RATE_SCHEDULES[k].label+' <span>'+money(quote(k).total)+'</span></button>').join('');
+ $('compareRates').querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>{$('ratePlan').value=b.dataset.rate;compute();}));
+ $('monthly').textContent='Optional support: '+money(support)+'/month (not included above)';
+ return {total,rateSchedule:RATE_SCHEDULES[plan].label,rangeLow:Math.round(total*.85),rangeHigh:Math.round(total*1.25),supportMonthly:support,breakdown:Object.fromEntries(calc.lines),
+ business:$('business').value.trim(),contact:$('contact').value.trim(),email:$('email').value.trim(),
+ size:selected('size'),locations:Number($('locations').value),industries,edition:selected('edition'),depth:selected('depth'),infrastructure:selected('infra'),
+ aesthetics:selected('aesthetic'),support:selected('support'),modules:checked('modules'),workflow:$('workflow').value.trim(),pos:$('pos').value.trim(),timeline:$('timeline').value.trim(),notes:$('notes').value.trim(),consent:$('consent').checked};
+}
+function summary(x){
+ return ['SMALL BUSINESS UNIVERSE COMMISSION INQUIRY','Business: '+x.business,'Contact: '+x.contact,'Email: '+x.email,
+ 'Industries: '+(x.industries.join(', ')||'Not specified'),'Size: '+x.size,'Locations: '+x.locations,
+ 'Edition: '+x.edition,'Customization: '+x.depth,'Infrastructure: '+x.infrastructure,'Aesthetics: '+x.aesthetics,'Support: '+x.support,
+ 'Requested modules: '+x.modules.join(', '),'Workflows: '+x.workflow,'Current software: '+x.pos,'Timeline: '+x.timeline,'Notes: '+x.notes,
+ 'Rate schedule: '+x.rateSchedule,'Planning subtotal: '+money(x.total),'Indicative range: '+money(x.rangeLow)+' to '+money(x.rangeHigh),'Optional monthly support: '+money(x.supportMonthly),
+ 'This is a nonbinding planning estimate; discovery and written scope are required.'].join('\n');
+}
+document.querySelectorAll('input,select,textarea').forEach(el=>el.addEventListener('input',compute));
+$('printBtn').addEventListener('click',()=>window.print());
+$('jsonBtn').addEventListener('click',()=>{
+ const data=JSON.stringify({schema:'artfort321.commission.v1',generatedAt:new Date().toISOString(),...compute()},null,2);
+ const a=document.createElement('a');const u=URL.createObjectURL(new Blob([data],{type:'application/json'}));
+ a.href=u;a.download='business-universe-inquiry.json';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),1000);
+ $('feedback').textContent='Inquiry JSON saved locally.';
+});
+compute();
+// Intro never traps a visitor: automatic dismissal and explicit skip.
+(function(){
+ const intro=document.getElementById('agencyIntro');
+ const dismiss=()=>intro.classList.add('hide');
+ document.getElementById('skipIntro').addEventListener('click',dismiss);
+ window.setTimeout(dismiss,1800);
+})();
+</script></body></html>

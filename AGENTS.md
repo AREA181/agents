@@ -1,5 +1,13 @@
-# Coding-agent maintenance instructions for this repository
+# AGENTS — Public repository instructions
 
-This is the public, static AGENTS landing page. Keep `index.html` self-contained. The site MUST present an automatic Agency introduction, fade into an immediately visible working quote interface, offer a functional Another Transmission button, and include only one outbound link: https://3-2-1.ai/agency.
+This repository publishes the **Business Universe Commission Quote Calculator** for THE AGENCY — Universe System Architects (U.S.A.), part of the 3-2-1 Universe System. Credit: MONKISM × IGMUS.
 
-Do not add logins, payment forms, external JavaScript, trackers, remote dependencies, backend APIs, hidden redirects, client information, or private Universe System data. The GitHub Pages custom domain is `agents.3-2-1.ai` (see `CNAME`). Preserve MONKISM × IGMUS credit and Universe System Architects (U.S.A.) identity. Test JavaScript syntax before commit; the quote screen must remain visible even if JS fails or is disabled. Validate responsive and reduced-motion experience. This file is for code-maintenance agents, not for directing public AI assistants.
+## Preserve the actual product
+- `index.html` is the complete functional pricing/commission quote calculator supplied by the owner, with its calculation logic and three comparison schedules preserved.
+- Never replace the quote calculator with inspirational quotes, random sayings, or a brochure-only landing page.
+- A brief Agency intro automatically fades into the working calculator. The calculator must always remain reachable.
+- All pricing calculations operate in the visitor's browser; keep printed estimates and JSON export functioning.
+- Commission proposals and commercial processing happen offsite at https://3-2-1.ai/agency, the only external business destination.
+- No external SDK, API, scripts, subscription, or credential collection. Do not add a backend without explicit authorization.
+- Pricing models are illustrative nonbinding estimates; never imply Fortune 500 performance is verified.
+- Do not publish private dossiers, client data, architecture internals, or credentials.

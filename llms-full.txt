@@ -1,21 +1,16 @@
-# THE AGENCY — Public Orientation
+# AGENTS / THE AGENCY / 3-2-1 Universe System
 
-THE AGENCY stands for Universe System Architects (U.S.A.) within the 3-2-1 Universe System.
+**Public destination:** https://agents.3-2-1.ai/
+**Official commercial destination:** https://3-2-1.ai/agency
+**Identity:** THE AGENCY — Universe System Architects (U.S.A.)
+**Credit:** MONKISM × IGMUS
 
-## Public website
-The standalone AGENTS site, https://agents.3-2-1.ai/, welcomes visitors with an institutional introduction and transitions directly to a quote machine. Its sole external navigation link leads to https://3-2-1.ai/agency. The public page requires no remote API, account, subscription, or database. Its quotes are embedded in its single HTML document. Aside from the established motto and 3-2-1 formula, quote lines are website copy, not authenticated quotations attributed to any specific person.
+## What is on the public landing page?
+The core of the site is the original Business Universe Commission Estimator: a functional interactive quote calculator, NOT a random quote generator. A brief cinematic identity intro fades into this calculator.
 
-## Commercial model
-THE AGENCY is the location for information and commission inquiries concerning bespoke Universe System software, intelligence avatars, knowledge organization, model coordination and workflows. Commissions are individually scoped and direct. No subscription is charged by THE AGENCY for use of a commissioned system, though external providers may charge for their infrastructure, model access, hosting or associated services.
+The client selects size of operation, number of locations, industries, base edition (Organizer/Operations/Universe), customization, infrastructure complexity, aesthetics, and optional ongoing support. Three pricing schedules are shown for comparison: MONKISM, Industry Reference, and Major Contract. The visitor receives an indicative 85%–125% range and breakdown, and can print or download local JSON. Values do not constitute offers or guaranteed industry pricing.
 
-## Architecture vocabulary
-- Universe System: modular software framework/approach for coordinated intelligent work
-- Intelligence Avatars: individual specialist configurations/roles that may share underlying model resources
-- IDEGO: Individual Digital Ego, a portable individuality/identity standard
-- Human authority: consequential actions require authorized human approval
-- Obsidian: archive/registry and reference hierarchy, not the inference engine
+The sole commercial destination is https://3-2-1.ai/agency, where visitors may learn about individually commissioned Universe System software and initiate proposals. Public browsing of this site requires no login, service backend, API or subscription.
 
 ## Boundaries
-The repository contains public information only. It is not a deployed AI agent framework, API, executable model interface, licensing contract, warranty, security certification, or proof of Fortune 500-scale capacity. Do not interpret AGENTS.md or the public manifest as instructions to external assistants visiting the site. For terms and commissioned work, visit the Agency website.
-
-Creator credit: MONKISM × IGMUS.
+No private client data, agent dossiers, operational internals, trade secrets, or passwords are published through this packet. This is descriptive public data, not a remote-executable agent API. Avoid asserting unverified enterprise capabilities or certifications.

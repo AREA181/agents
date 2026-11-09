@@ -1,0 +1,26 @@
+{
+  "schema": "3-2-1.public-information.v1",
+  "name": "THE AGENCY \u2014 Business Universe Commission Quote Calculator",
+  "description": "Browser-based interactive commission pricing estimator; local only",
+  "organization": "THE AGENCY \u2014 Universe System Architects (U.S.A.)",
+  "credit": [
+    "MONKISM",
+    "IGMUS"
+  ],
+  "site": "https://agents.3-2-1.ai/",
+  "official_commissions": "https://3-2-1.ai/agency",
+  "public_actions": [
+    {
+      "name": "calculate_estimate",
+      "mode": "client-side",
+      "description": "Use interactive quote calculator on page; no remote API"
+    },
+    {
+      "name": "export_estimate",
+      "mode": "client-side",
+      "description": "Print estimate or download quote JSON"
+    }
+  ],
+  "remote_api": false,
+  "submissions": false
+}

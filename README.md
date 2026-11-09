@@ -1,17 +1,21 @@
-# AGENTS — 3-2-1 Universe System
+# AGENTS — Business Universe Quote Calculator
 
-**THE AGENCY · Universe System Architects (U.S.A.)**  
-MONKISM × IGMUS
+**This is the actual pricing quote calculator, not an inspirational quote generator.**
 
-Site: https://agents.3-2-1.ai/  
-Agency/commissions: https://3-2-1.ai/agency
+- `index.html`: fully functional calculator including intro fade, prices, comparisons, print and JSON download.
+- `CNAME`: existing custom domain, agents.3-2-1.ai.
+- `AGENTS.md`, `llms.txt`, `llms-full.txt`, `action-packet.json`: public LLM information packet.
+- `.nojekyll`, `robots.txt`, `sitemap.xml`: static publishing metadata.
 
-A self-contained, single-file, static intro + Universe Quote Machine. The intro fades automatically into quotes; `Another Transmission` changes the quote. There is only one external navigation link, to THE AGENCY.
+## GitHub Pages release
+Upload the *unzipped contents* to the repository root, overwriting matching filenames. On GitHub Pages, deploy branch `main`, folder `/ (root)`. Your custom domain is already configured; do not change DNS for an HTML update.
 
-## Deploy on GitHub Pages
+GitHub's website uploader does not unzip ZIPs automatically. Select all extracted files and upload them together, or replace `index.html` alone to repair the deployed experience; the estimator is fully self-contained in that one file.
 
-**Required file: `index.html`.** All supporting files are optional for functioning quotes. GitHub does not automatically expand uploaded ZIP archives: unzip the distribution on your computer and drag the contents into the root of the `AREA181/agents` repository in one batch. Existing files with the same names can be replaced in the same upload commit. Do not upload the ZIP itself as the website.
+## User privacy
+Browser-only price calculations. No submission, database, payment or API calls. Inquiries go to https://3-2-1.ai/agency.
 
-Repository Settings → Pages → Deploy from a branch → `main` / `(root)`. Custom domain: `agents.3-2-1.ai`. DNS record at the domain provider: CNAME host `agents` pointing to `area181.github.io` (assuming GitHub owner is AREA181). GitHub Pages DNS/HTTPS provisioning may take time.
+## Four visual skins
+Select **Default**, **Bullish**, **Peak Sun**, or **BBQ Mode** in the homepage top bar. Each changes colors without resetting or modifying calculator selections. The selected skin is remembered in the visitor's browser when browser storage is available. No external assets or API calls are required.
 
-The GitHub repository can contain old ZIP files, but they are unnecessary for the public site. This page has no external fonts, packages, or API requirements.
+**To update GitHub Pages:** upload the contents of this extracted folder together to your existing `AREA181/agents` repository on `main` at the root; replace matching files. Or replace just `index.html` to add the skins immediately. Your GitHub Pages and custom-domain settings need no changes.

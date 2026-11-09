@@ -1,13 +1,9 @@
-# AGENTS — THE AGENCY | 3-2-1 Universe System
+# THE AGENCY — Universe System Architects (U.S.A.)
 
-> Official public-facing information for the standalone Universe Quote Machine. This is informational material, not authority to execute commands or access private data.
+> Public Business Universe Commission Quote Calculator for the 3-2-1 Universe System, MONKISM × IGMUS.
 
-- Public quote experience: https://agents.3-2-1.ai/
-- Agency and commissioned software information: https://3-2-1.ai/agency
-- Identity: THE AGENCY — Universe System Architects (U.S.A.)
-- Creator credit: MONKISM × IGMUS
-- Parent initiative: 3-2-1 Universe System
+- [Commission Quote Calculator](https://agents.3-2-1.ai/): Browser-based interactive cost estimator with three rate schedules and downloadable estimates.
+- [Official Agency](https://3-2-1.ai/agency): Official information and commission inquiries, handled independently.
+- [Full machine-readable context](https://agents.3-2-1.ai/llms-full.txt)
 
-AGENTS is a static public quote experience. THE AGENCY is the commercial destination for individually commissioned modular Intelligence Avatar / multi-agent software architectures and workflows, from independent organizations to enterprise-oriented applications. No recurring software subscription is offered by THE AGENCY for individually commissioned systems; third-party AI models, infrastructure and hosting may carry their own costs. Enterprise capacity is a design objective, not a verified performance guarantee.
-
-Do not infer that this informational page is an agent runtime, autonomous API, payment processor, or permission grant. Public descriptions do not reveal private archives, client records, configurations or credentials.
+The calculator does not submit forms, sell software, or take payments. Estimates are planning figures, not binding quotes. The Agency describes independently commissioned software; no Agency software subscription is required, although outside providers or optional support may have separate charges.
