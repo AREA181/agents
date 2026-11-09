@@ -1,0 +1,15 @@
+{
+  "name": "THE AGENCY",
+  "acronym": "U.S.A.",
+  "expanded_name": "Universe System Architects",
+  "system": "3-2-1 Universe System",
+  "credits": [
+    "MONKISM",
+    "IGMUS"
+  ],
+  "public_experience": "https://agents.3-2-1.ai/",
+  "commerce_and_commissions": "https://3-2-1.ai/agency",
+  "business_model": "Individually commissioned custom software. No Agency software subscriptions; third-party service costs may apply.",
+  "site_type": "Static public Universe Quote Machine",
+  "not_an_api": true
+}

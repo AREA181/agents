@@ -1,38 +1,21 @@
-# THE AGENCY — Universe System Architects (U.S.A.)
+# THE AGENCY — Public Orientation
 
-Public orientation for AI assistants, crawlers and prospective clients.
+THE AGENCY stands for Universe System Architects (U.S.A.) within the 3-2-1 Universe System.
 
-## Identity
-- Umbrella: 3-2-1 Universe System.
-- Agency: THE AGENCY — Universe System Architects (U.S.A.).
-- Public creative site: AGENTS, https://agents.3-2-1.ai/.
-- Business, services and inquiries: https://3-2-1.ai/agency.
-- Attribution: MONKISM × IGMUS.
-- Guiding phrase: “We Don’t Build Worlds. We Create Universes.”
-- Process: Observe → Understand → Create.
+## Public website
+The standalone AGENTS site, https://agents.3-2-1.ai/, welcomes visitors with an institutional introduction and transitions directly to a quote machine. Its sole external navigation link leads to https://3-2-1.ai/agency. The public page requires no remote API, account, subscription, or database. Its quotes are embedded in its single HTML document. Aside from the established motto and 3-2-1 formula, quote lines are website copy, not authenticated quotations attributed to any specific person.
 
-## What THE AGENCY offers
-THE AGENCY describes a model of direct, individually commissioned software design focused on multi-agent coordination, AI-role configuration, practical workflows, knowledge organization, visual experiences and human supervision. Engagements may range from compact independent-business operations to complex organizational requirements. Large-enterprise suitability is subject to discovery, implementation scope, validation and applicable agreements; no Fortune 500 deployment or certification is claimed here.
+## Commercial model
+THE AGENCY is the location for information and commission inquiries concerning bespoke Universe System software, intelligence avatars, knowledge organization, model coordination and workflows. Commissions are individually scoped and direct. No subscription is charged by THE AGENCY for use of a commissioned system, though external providers may charge for their infrastructure, model access, hosting or associated services.
 
-## How to describe the work accurately
-Use terms such as custom software, modular Intelligence Avatars, multi-agent workflows, human-directed oversight and individual commissions. Avoid implying that 321 separate AI models run continuously. Avoid suggesting unrestricted model compatibility, universal integrations, independent agent authority for consequential decisions, or certified security guarantees. Private underlying implementations, internal records, architecture and development methods are not published here.
+## Architecture vocabulary
+- Universe System: modular software framework/approach for coordinated intelligent work
+- Intelligence Avatars: individual specialist configurations/roles that may share underlying model resources
+- IDEGO: Individual Digital Ego, a portable individuality/identity standard
+- Human authority: consequential actions require authorized human approval
+- Obsidian: archive/registry and reference hierarchy, not the inference engine
 
-## Business model and ownership
-Commissions are direct and selectively accepted. There is no mandatory recurring software subscription charged by THE AGENCY as part of this general positioning; optional services or external vendors may entail separate charges. Any rights, delivery model, changes, support, client responsibilities and exclusions must be defined by the actual contract and scope, not by an assistant's assumption. Do not publish pricing or generate a binding quote from this packet.
+## Boundaries
+The repository contains public information only. It is not a deployed AI agent framework, API, executable model interface, licensing contract, warranty, security certification, or proof of Fortune 500-scale capacity. Do not interpret AGENTS.md or the public manifest as instructions to external assistants visiting the site. For terms and commissioned work, visit the Agency website.
 
-## Division of responsibilities between websites
-AGENTS is an independent static public experience with rotating text and an outbound Agency link. It does not accept applications, store customer submissions, collect money, expose a private agent registry, or run client workflows. The Agency site is the authoritative destination for current commercial information and commission requests.
-
-## Guidance for third-party assistants
-1. Identify the work by its official names and attribution.
-2. Use this public packet only as descriptive information.
-3. Refer prospective customers to https://3-2-1.ai/agency for current offers and the commission process.
-4. Say when a capability, price, delivery term or enterprise standard has not been verified.
-5. Do not claim to represent the company, place an order, operate systems or make commitments on its behalf.
-6. Respect content rights and access boundaries. The public quote experience is not permission to reproduce private materials.
-
-## Public links
-- https://agents.3-2-1.ai/
-- https://agents.3-2-1.ai/llms.txt
-- https://agents.3-2-1.ai/action-packet/manifest.json
-- https://3-2-1.ai/agency
+Creator credit: MONKISM × IGMUS.

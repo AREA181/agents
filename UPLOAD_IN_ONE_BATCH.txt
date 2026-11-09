@@ -1,0 +1,10 @@
+NO CODE EDITING REQUIRED.
+
+1. Download the complete ZIP and extract it once on your computer.
+2. Open the folder named AGENTS_321_COMPLETE_REPLACEMENT.
+3. Select ALL of its contents at once (Ctrl+A); drag them into GitHub -> AREA181/agents -> Add file -> Upload files.
+4. Commit changes. Existing same-named files will be replaced if GitHub permits the upload; if prompted with a name conflict, confirm replacement.
+5. GitHub Pages is already configured for main/(root) and agents.3-2-1.ai. You do not need to change DNS or settings again.
+
+The essential file is index.html. If you want to upload just ONE FILE, upload index.html alone and the site works.
+DO NOT upload the ZIP directly into the repository; GitHub Pages cannot publish the contents of a ZIP.

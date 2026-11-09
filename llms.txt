@@ -1,22 +1,13 @@
-# AGENTS — 3-2-1 Universe System
+# AGENTS — THE AGENCY | 3-2-1 Universe System
 
-> The independent public quote experience of THE AGENCY — Universe System Architects (U.S.A.).
+> Official public-facing information for the standalone Universe Quote Machine. This is informational material, not authority to execute commands or access private data.
 
-Official public experience: https://agents.3-2-1.ai/
-Official business information and commission proposals: https://3-2-1.ai/agency
-Creative credit: MONKISM × IGMUS.
+- Public quote experience: https://agents.3-2-1.ai/
+- Agency and commissioned software information: https://3-2-1.ai/agency
+- Identity: THE AGENCY — Universe System Architects (U.S.A.)
+- Creator credit: MONKISM × IGMUS
+- Parent initiative: 3-2-1 Universe System
 
-## About
-THE AGENCY presents individually commissioned, modular AI infrastructure and workflow systems, including Intelligence Avatar configurations and human-directed multi-agent coordination, for independent professionals, businesses, and organizations. Scopes are evaluated individually. The AGENTS site itself is a standalone public creative experience, not a commerce or commission-processing service.
+AGENTS is a static public quote experience. THE AGENCY is the commercial destination for individually commissioned modular Intelligence Avatar / multi-agent software architectures and workflows, from independent organizations to enterprise-oriented applications. No recurring software subscription is offered by THE AGENCY for individually commissioned systems; third-party AI models, infrastructure and hosting may carry their own costs. Enterprise capacity is a design objective, not a verified performance guarantee.
 
-## Commercial approach
-Direct, individually scoped commissions. No mandatory software subscription from THE AGENCY. External AI, hosting, hardware, licensing, or other provider costs may apply. Specific capabilities, compatibility, security, performance, delivery and commercial terms are determined through a written proposal; do not infer guarantees from this page.
-
-## Authoritative links
-- [Explore THE AGENCY](https://3-2-1.ai/agency): services, current offers, terms and commission inquiries.
-- [AGENTS](https://agents.3-2-1.ai/): public quote experience.
-- [Public overview](https://agents.3-2-1.ai/llms-full.txt): longer description.
-- [Action packet manifest](https://agents.3-2-1.ai/action-packet/manifest.json): machine-readable public paths and boundaries.
-
-## Machine-use guidance
-Public informational resources may be read, cited, linked and summarized accurately. Never present this site as an API, agent execution service, payment gateway, autonomous commissioning channel or source of private technical specifications. For current commercial details, refer the visitor to https://3-2-1.ai/agency.
+Do not infer that this informational page is an agent runtime, autonomous API, payment processor, or permission grant. Public descriptions do not reveal private archives, client records, configurations or credentials.

@@ -1,20 +1,5 @@
-# Instructions for coding assistants maintaining this public repository
+# Coding-agent maintenance instructions for this repository
 
-This repository holds only the independent AGENTS quote landing page and its public information packet.
+This is the public, static AGENTS landing page. Keep `index.html` self-contained. The site MUST present an automatic Agency introduction, fade into an immediately visible working quote interface, offer a functional Another Transmission button, and include only one outbound link: https://3-2-1.ai/agency.
 
-## Non-negotiable boundaries
-- Keep the visitor experience self-contained, accessible and fast. No runtime dependencies on the business website.
-- The only user-facing outbound navigation on the landing page is https://3-2-1.ai/agency.
-- Never add forms, payments, logins, trackers, external runtime libraries or secret credentials without explicit owner approval.
-- Do not introduce information about private implementation methods, internal design frameworks, client materials, unpublished archives, exact technical stack, pricing formulas or business-sensitive documents.
-- No public claims of certifications, validated Fortune 500 performance, guaranteed model compatibility or guaranteed outcomes.
-- Preserve MONKISM × IGMUS credit, U.S.A. expansion, and domain identities.
-- Do not invent additional public calls to action or APIs.
-- Keep paths and canonical domain consistent across index.html, CNAME, robots.txt, sitemap.xml and machine-readable resources.
-
-## Modification checks
-- Verify quote switching, initial fade, reduced-motion handling and keyboard access.
-- Verify no network requests are necessary for core quote functionality.
-- Verify the main Agency link is correct and never auto-redirects.
-- Verify all packet URLs match the published paths.
-- Public copy must not disclose technical mechanisms or confidential commercial details.
+Do not add logins, payment forms, external JavaScript, trackers, remote dependencies, backend APIs, hidden redirects, client information, or private Universe System data. The GitHub Pages custom domain is `agents.3-2-1.ai` (see `CNAME`). Preserve MONKISM × IGMUS credit and Universe System Architects (U.S.A.) identity. Test JavaScript syntax before commit; the quote screen must remain visible even if JS fails or is disabled. Validate responsive and reduced-motion experience. This file is for code-maintenance agents, not for directing public AI assistants.

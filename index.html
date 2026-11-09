@@ -1,90 +1,88 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#0a101a">
-  <meta name="description" content="AGENTS — a public transmission from THE AGENCY, Universe System Architects. Explore original thoughts on creativity, intelligence, and the 3-2-1 Universe System.">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="AGENTS | THE AGENCY · Universe System Architects">
-  <meta property="og:description" content="A transmission from the 3-2-1 Universe System. Observe. Understand. Create.">
-  <meta property="og:url" content="https://agents.3-2-1.ai/">
-  <meta name="robots" content="index,follow">
-  <link rel="canonical" href="https://agents.3-2-1.ai/">
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="alternate" type="text/plain" href="/llms.txt" title="LLM orientation">
-  <title>AGENTS — THE AGENCY | Universe System Architects</title>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"AGENTS — THE AGENCY","url":"https://agents.3-2-1.ai/","description":"Public quote transmission and introduction to THE AGENCY — Universe System Architects.","publisher":{"@type":"Organization","name":"THE AGENCY — Universe System Architects","url":"https://3-2-1.ai/agency"}}</script>
-  <style>
-    :root{color-scheme:dark;--bg:#090e17;--line:rgba(177,193,214,.22);--ivory:#edf0e9;--muted:#9caac0;--accent:#b6d9d7}
-    *{box-sizing:border-box}html{min-height:100%}body{margin:0;min-height:100svh;background:radial-gradient(ellipse at 50% 32%,#172536 0%,#0c1521 40%,var(--bg) 80%);color:var(--ivory);font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
-    body::before{content:"";pointer-events:none;position:fixed;inset:0;opacity:.35;background-image:linear-gradient(90deg,transparent 49.91%,rgba(150,180,200,.075) 50%,transparent 50.09%);background-size:90px 90px}
-    .frame{min-height:100svh;display:flex;flex-direction:column;align-items:center;padding:32px 22px 20px;position:relative}
-    .top{width:min(100%,940px);display:flex;justify-content:space-between;gap:12px;align-items:center;color:var(--muted);font-size:11px;letter-spacing:.18em;text-transform:uppercase}
-    .mark{display:flex;align-items:center;gap:10px}.seal{display:grid;place-items:center;width:34px;height:34px;border:1px solid #79959c;border-radius:50%;color:#eaf1eb;font-size:10px;letter-spacing:0;font-weight:800}
-    .line{height:1px;width:min(100%,940px);background:var(--line);margin-top:22px}
-    main{flex:1;display:grid;place-items:center;width:min(100%,920px);padding:20px 0 44px}
-    .stage{text-align:center;width:100%;min-height:430px;display:grid;place-items:center;position:relative}
-    .intro,.transmission{grid-area:1/1;max-width:840px;width:100%;transition:opacity 1.2s ease,transform 1.2s ease}
-    .intro{opacity:1;transform:translateY(0);pointer-events:auto}.transmission{opacity:0;transform:translateY(14px);pointer-events:none}
-    .ready .intro{opacity:0;transform:translateY(-14px);pointer-events:none}.ready .transmission{opacity:1;transform:translateY(0);pointer-events:auto}
-    .eyebrow{margin:0 0 23px;font-size:11px;letter-spacing:.35em;text-transform:uppercase;color:var(--accent);font-weight:650}
-    h1{font-size:clamp(48px,9vw,108px);font-weight:550;letter-spacing:.07em;line-height:.98;margin:0 0 18px}
-    .subtitle{font-size:clamp(13px,2vw,18px);text-transform:uppercase;letter-spacing:.18em;color:#d4dde4;margin:0}
-    .abbr{font-size:11px;letter-spacing:.4em;color:var(--muted);margin:20px 0 0}
-    .rule{height:1px;width:70px;background:#66838f;margin:30px auto}
-    .headline{font-size:clamp(11px,1.6vw,14px);color:var(--muted);letter-spacing:.26em;text-transform:uppercase;margin:0 0 31px}
-    blockquote{margin:0 auto;max-width:780px;font-family:Georgia,"Times New Roman",serif;font-weight:400;font-size:clamp(31px,5.8vw,69px);line-height:1.23;letter-spacing:-.025em;text-wrap:balance}
-    .quotefoot{font-size:10px;letter-spacing:.22em;color:var(--muted);margin-top:28px;text-transform:uppercase}
-    .actions{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:12px;margin-top:44px}
-    button,a.cta{appearance:none;font:inherit;font-size:11px;letter-spacing:.16em;text-transform:uppercase;padding:13px 20px;border:1px solid #718895;background:transparent;color:#eef2ed;border-radius:2px;cursor:pointer;text-decoration:none;transition:background .2s ease,border-color .2s ease}
-    button:hover,a.cta:hover{background:rgba(171,210,209,.12);border-color:#c6e5df}button:focus-visible,a:focus-visible{outline:3px solid #b9eee7;outline-offset:4px}
-    a.cta{border-color:transparent;color:#bfd5d4}a.cta:hover{border-color:#718895}
-    footer{width:min(100%,940px);display:flex;flex-wrap:wrap;justify-content:space-between;gap:14px;padding-top:17px;border-top:1px solid var(--line);color:var(--muted);font-size:10px;letter-spacing:.12em;text-transform:uppercase}
-    @media(max-width:600px){.top{font-size:9px;letter-spacing:.12em}.stage{min-height:450px}.eyebrow{letter-spacing:.22em}blockquote{font-size:clamp(31px,9vw,47px)}footer{justify-content:center;text-align:center}main{padding-bottom:18px}}
-    @media(prefers-reduced-motion:reduce){.intro,.transmission{transition:none}button,a.cta{transition:none}}
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0b111a">
+<meta name="description" content="AGENTS by THE AGENCY — Universe System Architects (U.S.A.). A public Universe Quote Machine from the 3-2-1 Universe System, MONKISM × IGMUS.">
+<meta property="og:title" content="AGENTS — The Agency | Universe Quote Machine">
+<meta property="og:description" content="A public transmission from the 3-2-1 Universe System. Observe. Understand. Create.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://agents.3-2-1.ai/">
+<link rel="canonical" href="https://agents.3-2-1.ai/">
+<title>AGENTS — THE AGENCY | Universe Quote Machine</title>
+<style>
+:root{color-scheme:dark;--text:#f2f2ef;--muted:#adbcc9;--line:#496172;--mint:#b4d7d7}
+*{box-sizing:border-box}
+html{min-height:100%;background:#0b111a}
+body{margin:0;min-height:100svh;color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif;background:radial-gradient(ellipse at 52% 37%,#213c4d 0%,#132332 34%,#0b111a 77%)}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.20;background-image:linear-gradient(transparent 96%,#557283 97%);background-size:100% 6px}
+.shell{min-height:100svh;display:flex;flex-direction:column;max-width:1200px;margin:auto;padding:25px clamp(18px,4vw,50px)}
+header,footer{display:flex;align-items:center;justify-content:space-between;gap:16px;color:var(--muted);font-size:11px;letter-spacing:.15em;text-transform:uppercase}
+header{padding-bottom:23px;border-bottom:1px solid var(--line)}
+.logo{display:flex;align-items:center;gap:12px;font-weight:700;color:#e5ecef}.disc{width:40px;height:40px;border:1px solid #7a9da7;border-radius:50%;display:grid;place-items:center;color:#e6f2f1;letter-spacing:0;font-size:11px}
+main{flex:1;display:flex;align-items:center;justify-content:center;padding:42px 0}
+.transmission{width:min(100%,920px);text-align:center;position:relative;z-index:1;animation:arrive 1.1s ease 1.65s both}
+.eyebrow{font-size:11px;font-weight:600;color:var(--mint);text-transform:uppercase;letter-spacing:.3em}
+.kicker{font-size:12px;letter-spacing:.19em;color:var(--muted);text-transform:uppercase;margin:18px 0 0}
+.quote{font-family:Georgia,"Times New Roman",serif;font-size:clamp(32px,5.9vw,70px);font-weight:400;line-height:1.18;letter-spacing:-.025em;max-width:960px;margin:30px auto 27px;text-wrap:balance;min-height:1.2em;transition:opacity .18s ease}
+.quote.changing{opacity:.15}
+.credit{font-size:11px;color:#aebeca;letter-spacing:.23em;text-transform:uppercase;margin:0}
+.hairline{height:1px;width:84px;margin:35px auto;background:#668995}
+.controls{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:14px;margin-top:28px}
+button,.agency{font:inherit;font-size:12px;letter-spacing:.15em;text-transform:uppercase;text-decoration:none;cursor:pointer;padding:15px 23px;border-radius:3px;transition:background .15s ease,color .15s ease}
+button{background:#d5e3e3;color:#101a25;border:1px solid #d5e3e3;font-weight:700}button:hover{background:#fff}button:active{transform:translateY(1px)}
+.agency{color:#d7e3e5;background:transparent;border:1px solid #6d8b98}.agency:hover{background:#253a47}
+button:focus-visible,a:focus-visible{outline:3px solid #fcf4b5;outline-offset:4px}
+footer{border-top:1px solid var(--line);padding-top:20px;line-height:1.5}
+.intro{position:fixed;z-index:10;inset:0;background:radial-gradient(ellipse at center,#20384a 0%,#0b111a 72%);display:grid;place-items:center;text-align:center;padding:20px;pointer-events:none;animation:introExit 1.2s ease 1.65s both}
+.intro-inner{animation:introIn .7s ease both}.intro h1{font-size:clamp(48px,10vw,130px);font-weight:400;letter-spacing:.08em;margin:14px 0}.intro .role{font-size:clamp(12px,2vw,19px);letter-spacing:.27em;text-transform:uppercase}.intro .id{letter-spacing:.3em;color:var(--mint);font-size:13px;margin-top:18px}.intro .brand-credit{color:var(--muted);letter-spacing:.2em;font-size:11px;margin-top:32px}
+@keyframes introIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+@keyframes introExit{0%,70%{opacity:1;visibility:visible}100%{opacity:0;visibility:hidden}}
+@keyframes arrive{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:650px){header,footer{font-size:9px;letter-spacing:.08em}header .right{display:none}footer{flex-wrap:wrap;justify-content:center;text-align:center}.quote{font-size:clamp(32px,8vw,50px)}.intro h1{letter-spacing:.035em}}
+@media(prefers-reduced-motion:reduce){.intro{display:none}.transmission{animation:none}.quote{transition:none}}
+</style>
 </head>
 <body>
-<div class="frame">
-  <header class="top"><div class="mark"><span class="seal" aria-hidden="true">321</span><span>3-2-1 Universe System</span></div><span>Official public transmission</span></header>
-  <div class="line" aria-hidden="true"></div>
-  <main>
-    <div class="stage" id="stage">
-      <section class="intro" id="intro" aria-label="Introduction">
-        <p class="eyebrow">An introduction from the 3-2-1 Universe System</p>
-        <h1>THE AGENCY</h1>
-        <p class="subtitle">Universe System Architects</p>
-        <p class="abbr">U.S.A.</p>
-        <div class="rule" aria-hidden="true"></div>
-        <p class="subtitle" style="font-size:12px;letter-spacing:.2em">MONKISM × IGMUS</p>
-      </section>
-      <section class="transmission" id="transmission" aria-label="Universe quote" aria-hidden="true">
-        <p class="headline">A transmission from the universe</p>
-        <blockquote id="quote" aria-live="polite"></blockquote>
-        <div class="quotefoot">Observe · Understand · Create</div>
-        <div class="actions"><button id="next" type="button" aria-label="Show another quote">Another transmission</button><a class="cta" href="https://3-2-1.ai/agency" rel="noopener">Explore The Agency <span aria-hidden="true">↗</span></a></div>
-      </section>
-    </div>
-  </main>
-  <footer><span>AGENTS.3-2-1.AI</span><span>MONKISM × IGMUS · All rights reserved</span><span>One Universe. Individual Intelligence.</span></footer>
+<!-- This single file is the entire functioning website. No external JavaScript, API, or fonts. -->
+<div class="intro" aria-hidden="true"><div class="intro-inner">
+<div class="eyebrow">3-2-1 Universe System</div>
+<h1>THE AGENCY</h1>
+<div class="role">Universe System Architects</div>
+<div class="id">U.S.A.</div>
+<div class="brand-credit">MONKISM × IGMUS</div>
+</div></div>
+<div class="shell">
+<header><div class="logo"><span class="disc">321</span><span>AGENTS · 3-2-1 Universe System</span></div><div class="right">Official public transmission</div></header>
+<main id="main"><section class="transmission" aria-label="Universe Quote Machine">
+<div class="eyebrow">THE AGENCY · U.S.A.</div>
+<p class="kicker">A transmission from the universe</p>
+<blockquote class="quote" id="quote" aria-live="polite">“We Don’t Build Worlds. We Create Universes.”</blockquote>
+<p class="credit">Observe · Understand · Create</p>
+<div class="hairline"></div>
+<div class="controls"><button id="next" type="button">Another Transmission</button><a class="agency" href="https://3-2-1.ai/agency" rel="noopener">Explore The Agency ↗</a></div>
+</section></main>
+<footer><span>agents.3-2-1.ai</span><span>MONKISM × IGMUS</span><span>One Standard. Individual Identities. Evolving Intelligence.</span></footer>
 </div>
 <script>
+(function(){
   'use strict';
-  const QUOTES = ["We Don’t Build Worlds. We Create Universes.", "Observe. Understand. Create.", "Every universe begins with an observation.", "Imagination deserves an architecture of its own.", "A system should serve the individual—not erase them.", "Intelligence has more than one point of view.", "Build for the work. Design for the people.", "The future is not a template. It is a commission.", "Great systems make room for individual expertise.", "Creation starts where curiosity refuses to stop.", "Your tools should answer to your vision.", "An idea becomes a universe when its parts begin to work together.", "Individual identity. Collective possibility.", "Human direction is not an optional feature.", "The next great workplace may be designed, not inherited.", "The best infrastructure disappears behind the work.", "A universe is more than the sum of its agents.", "Make the system fit the mission.", "Complexity belongs behind the curtain.", "A creative future needs room to evolve.", "The architecture is serious. The imagination is unlimited.", "Independent intelligence. Coordinated purpose.", "Build something worth returning to.", "Design the experience. Protect the imagination."];
-  const stage=document.getElementById('stage');
-  const quoteEl=document.getElementById('quote');
-  const transmission=document.getElementById('transmission');
-  const intro=document.getElementById('intro');
-  let current=-1;
-  function showQuote(){
-    let index=Math.floor(Math.random()*QUOTES.length);
-    if(QUOTES.length>1&&index===current)index=(index+1)%QUOTES.length;
-    current=index;quoteEl.textContent='“'+QUOTES[index]+'”';
-  }
-  function reveal(){showQuote();stage.classList.add('ready');transmission.setAttribute('aria-hidden','false');intro.setAttribute('aria-hidden','true');}
-  document.getElementById('next').addEventListener('click',showQuote);
-  if(window.matchMedia('(prefers-reduced-motion: reduce)').matches)reveal();
-  else window.setTimeout(reveal,2100);
+  const quotes = ["We Don’t Build Worlds. We Create Universes.", "Observe. Understand. Create.", "Imagination is worth protecting.", "Intelligence should serve the individual.", "Individual identity. Collective capability.", "An idea is the beginning of an architecture.", "Human authority is part of the design.", "Build systems that leave room for imagination.", "Creativity does not require permission from convention.", "A universe is more than the sum of its tools.", "The work should guide the technology.", "Different expertise. Shared purpose.", "An independent mind deserves an independent record.", "The future can be individually commissioned.", "A great system makes room for individuality.", "Observe what exists. Understand what matters. Create what comes next."];
+  const quoteElement = document.getElementById('quote');
+  const nextButton = document.getElementById('next');
+  let currentIndex = 0;
+  nextButton.addEventListener('click', function(){
+    let nextIndex = Math.floor(Math.random() * (quotes.length - 1));
+    if (nextIndex >= currentIndex) nextIndex += 1;
+    currentIndex = nextIndex;
+    quoteElement.classList.add('changing');
+    window.setTimeout(function(){
+      quoteElement.textContent = '“' + quotes[currentIndex] + '”';
+      quoteElement.classList.remove('changing');
+    }, 160);
+  });
+})();
 </script>
-</body></html>
+</body>
+</html>
