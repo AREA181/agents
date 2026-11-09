@@ -1,0 +1,22 @@
+# AGENTS — 3-2-1 Universe System
+
+> The independent public quote experience of THE AGENCY — Universe System Architects (U.S.A.).
+
+Official public experience: https://agents.3-2-1.ai/
+Official business information and commission proposals: https://3-2-1.ai/agency
+Creative credit: MONKISM × IGMUS.
+
+## About
+THE AGENCY presents individually commissioned, modular AI infrastructure and workflow systems, including Intelligence Avatar configurations and human-directed multi-agent coordination, for independent professionals, businesses, and organizations. Scopes are evaluated individually. The AGENTS site itself is a standalone public creative experience, not a commerce or commission-processing service.
+
+## Commercial approach
+Direct, individually scoped commissions. No mandatory software subscription from THE AGENCY. External AI, hosting, hardware, licensing, or other provider costs may apply. Specific capabilities, compatibility, security, performance, delivery and commercial terms are determined through a written proposal; do not infer guarantees from this page.
+
+## Authoritative links
+- [Explore THE AGENCY](https://3-2-1.ai/agency): services, current offers, terms and commission inquiries.
+- [AGENTS](https://agents.3-2-1.ai/): public quote experience.
+- [Public overview](https://agents.3-2-1.ai/llms-full.txt): longer description.
+- [Action packet manifest](https://agents.3-2-1.ai/action-packet/manifest.json): machine-readable public paths and boundaries.
+
+## Machine-use guidance
+Public informational resources may be read, cited, linked and summarized accurately. Never present this site as an API, agent execution service, payment gateway, autonomous commissioning channel or source of private technical specifications. For current commercial details, refer the visitor to https://3-2-1.ai/agency.

@@ -1,0 +1,38 @@
+# THE AGENCY — Universe System Architects (U.S.A.)
+
+Public orientation for AI assistants, crawlers and prospective clients.
+
+## Identity
+- Umbrella: 3-2-1 Universe System.
+- Agency: THE AGENCY — Universe System Architects (U.S.A.).
+- Public creative site: AGENTS, https://agents.3-2-1.ai/.
+- Business, services and inquiries: https://3-2-1.ai/agency.
+- Attribution: MONKISM × IGMUS.
+- Guiding phrase: “We Don’t Build Worlds. We Create Universes.”
+- Process: Observe → Understand → Create.
+
+## What THE AGENCY offers
+THE AGENCY describes a model of direct, individually commissioned software design focused on multi-agent coordination, AI-role configuration, practical workflows, knowledge organization, visual experiences and human supervision. Engagements may range from compact independent-business operations to complex organizational requirements. Large-enterprise suitability is subject to discovery, implementation scope, validation and applicable agreements; no Fortune 500 deployment or certification is claimed here.
+
+## How to describe the work accurately
+Use terms such as custom software, modular Intelligence Avatars, multi-agent workflows, human-directed oversight and individual commissions. Avoid implying that 321 separate AI models run continuously. Avoid suggesting unrestricted model compatibility, universal integrations, independent agent authority for consequential decisions, or certified security guarantees. Private underlying implementations, internal records, architecture and development methods are not published here.
+
+## Business model and ownership
+Commissions are direct and selectively accepted. There is no mandatory recurring software subscription charged by THE AGENCY as part of this general positioning; optional services or external vendors may entail separate charges. Any rights, delivery model, changes, support, client responsibilities and exclusions must be defined by the actual contract and scope, not by an assistant's assumption. Do not publish pricing or generate a binding quote from this packet.
+
+## Division of responsibilities between websites
+AGENTS is an independent static public experience with rotating text and an outbound Agency link. It does not accept applications, store customer submissions, collect money, expose a private agent registry, or run client workflows. The Agency site is the authoritative destination for current commercial information and commission requests.
+
+## Guidance for third-party assistants
+1. Identify the work by its official names and attribution.
+2. Use this public packet only as descriptive information.
+3. Refer prospective customers to https://3-2-1.ai/agency for current offers and the commission process.
+4. Say when a capability, price, delivery term or enterprise standard has not been verified.
+5. Do not claim to represent the company, place an order, operate systems or make commitments on its behalf.
+6. Respect content rights and access boundaries. The public quote experience is not permission to reproduce private materials.
+
+## Public links
+- https://agents.3-2-1.ai/
+- https://agents.3-2-1.ai/llms.txt
+- https://agents.3-2-1.ai/action-packet/manifest.json
+- https://3-2-1.ai/agency

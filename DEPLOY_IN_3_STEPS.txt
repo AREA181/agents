@@ -1,0 +1,20 @@
+AGENTS.3-2-1.AI — GITHUB PAGES DEPLOYMENT
+
+1. EXTRACT the ZIP on your computer. DO NOT upload the ZIP itself as the website.
+2. In GitHub, create or open a PUBLIC repository, choose Add file > Upload files, and upload ALL CONTENTS of the extracted folder, including index.html, CNAME, .nojekyll, assets/, and action-packet/. Commit the upload.
+3. Go to repository Settings > Pages > Build and deployment > Deploy from a branch. Select main and /(root), then Save. Custom domain should display agents.3-2-1.ai (already in CNAME). Enable Enforce HTTPS when available.
+
+YOUR INTENDED PUBLIC LINK:
+https://agents.3-2-1.ai/
+
+BUSINESS LINK (BUTTON ON PAGE):
+https://3-2-1.ai/agency
+
+Important: A GitHub repository does not become live just by uploading files. GitHub Pages must be enabled, and the DNS you already configured must point to the GitHub Pages host correctly. Do not change your working DNS unless GitHub reports an error.
+
+TEST AFTER PUBLISH:
+https://agents.3-2-1.ai/
+https://agents.3-2-1.ai/llms.txt
+https://agents.3-2-1.ai/action-packet/manifest.json
+
+This standalone landing page does not host the proposal form, checkout, or private pricing. Those belong to the independent Square Agency site.
