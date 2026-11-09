@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Commission a Business Universe | ART FORT 321</title>
+<style>
+:root{--bg:#0c1520;--panel:#152536;--ink:#f2f5f7;--muted:#b5c5d0;--accent:#69d5be;--line:#375066}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,Segoe UI,sans-serif}
+main{max-width:1120px;margin:auto;padding:32px 18px 70px}header{border-bottom:1px solid var(--line);padding-bottom:24px;margin-bottom:26px}
+.kicker{color:var(--accent);font-size:12px;letter-spacing:.18em;font-weight:800}h1{font-size:clamp(29px,5vw,49px);line-height:1.1;margin:10px 0}h2{font-size:20px;margin:0 0 14px}
+p{color:var(--muted)}.layout{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(290px,.75fr);gap:20px}
+section,.result{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:22px;margin-bottom:16px}
+fieldset{border:0;padding:0;margin:0 0 18px}legend{font-weight:750;margin-bottom:8px}label{display:block;margin:10px 0 5px;font-size:14px}
+input,select,textarea{width:100%;background:#091621;border:1px solid #587184;border-radius:9px;color:var(--ink);padding:11px;font:inherit}
+input[type=checkbox]{width:auto;accent-color:var(--accent)}.row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.checks{display:grid;grid-template-columns:1fr 1fr;gap:4px 12px}.checks label{display:flex;align-items:center;gap:8px}
+button{background:var(--accent);border:0;border-radius:9px;padding:12px 14px;font:700 14px system-ui;cursor:pointer;color:#08212a;margin:5px 5px 5px 0}
+button.secondary{background:#304a60;color:white}.estimate{font-size:38px;font-weight:850;line-height:1.1;color:var(--accent)}
+.range{font-size:18px;font-weight:700;color:white}.fine{font-size:12px;color:var(--muted)}
+dl{display:grid;grid-template-columns:1fr auto;gap:6px 10px;font-size:14px}dt{color:var(--muted)}dd{margin:0;font-weight:700}
+aside{position:sticky;top:16px;align-self:start}.compare{display:grid;gap:8px;margin:10px 0 15px}.compare button{margin:0;background:#203b4c;color:#fff;border:1px solid #476577;text-align:left;display:flex;justify-content:space-between;gap:8px}.compare button.active{border-color:var(--accent);background:#24554f}.compare button span{font-weight:800;color:#90f3da}.warn{border-left:3px solid #eabf7e;padding:10px 12px;background:#302d27;color:#fff4db;font-size:13px}
+#feedback{min-height:24px;color:var(--accent);font-size:13px}
+@media(max-width:800px){.layout{grid-template-columns:1fr}aside{position:static}}@media(max-width:480px){.row,.checks{grid-template-columns:1fr}}
+@media print{body{background:white;color:black;font-size:11pt}main{padding:0}.layout{display:block}section,.result{background:white;color:black;border:1px solid #ccc;break-inside:avoid}p,.fine,dt{color:#333}input,select,textarea{color:black;background:white;border:1px solid #aaa}.estimate{color:black}aside{position:static}button,.no-print{display:none!important}header{border-color:#ccc}}
+</style></head><body><main>
+<header><div class="kicker">ART FORT 321 · MONKISM × IGMUS</div><h1>Commission Your Business Universe.</h1>
+<p>Selective, custom-built local business organizers for small businesses and industry leaders. Choose the edition, depth, infrastructure, and visual treatment that fit your work. Your estimate updates as you choose.</p></header>
+<div class="layout"><div>
+<section><h2>01 / Your business</h2>
+<div class="row"><div><label for="business">Business / organization</label><input id="business" placeholder="Your business"></div>
+<div><label for="contact">Contact name</label><input id="contact" placeholder="Your name"></div></div>
+<div class="row"><div><label for="email">Reply email</label><input id="email" type="email" placeholder="you@example.com"></div>
+<div><label for="size">Size of operation</label><select id="size"><option value="1">Solo / owner-operated (×1.00)</option><option value="1.2">Small team (×1.20)</option><option value="1.55">Multiple locations / teams (×1.55)</option><option value="1.9">Complex operation (×1.90)</option></select></div></div>
+<label for="locations">Number of locations</label><select id="locations"><option value="1">1 location</option><option value="2">2 locations</option><option value="3">3 locations</option><option value="4">4 locations</option><option value="5">5 locations</option><option value="6">6 locations</option></select>
+<fieldset><legend>Industries (select all that apply)</legend><div class="checks" id="industries">
+<label><input type="checkbox" value="Bottle shop / taproom"> Bottle shop / taproom</label>
+<label><input type="checkbox" value="Restaurant / food service"> Restaurant / food service</label>
+<label><input type="checkbox" value="Retail"> Retail</label>
+<label><input type="checkbox" value="Real estate"> Real estate</label>
+<label><input type="checkbox" value="Interior design"> Interior design</label>
+<label><input type="checkbox" value="Trades / contracting"> Trades / contracting</label>
+<label><input type="checkbox" value="Creative / entertainment"> Creative / entertainment</label>
+<label><input type="checkbox" value="Nonprofit / community"> Nonprofit / community</label>
+<label><input type="checkbox" value="Other"> Other</label>
+</div></fieldset></section>
+<section><h2>02 / Pricing schedule &amp; edition</h2>
+<label for="ratePlan">Compare commission rate schedules</label><select id="ratePlan">
+<option value="monkism">MONKISM — independent artist / consulting rates</option>
+<option value="market">INDUSTRY REFERENCE — boutique custom software estimate</option>
+<option value="major">MAJOR CONTRACT — managed, high-assurance delivery estimate</option>
+</select><p class="fine">These are three different scopes and delivery assumptions, not identical work at different markups. Industry and Major are illustrative quoting models informed by published agency benchmarks; not official universal industry price lists.</p>
+
+<label for="edition">Starting edition</label><select id="edition">
+<option value="750">ORGANIZER — $750 · Local vault, directory, calendar, workflows</option>
+<option value="1750" selected>OPERATIONS — $1,750 · Organizer + UPSTAIRS and daily operating flow</option>
+<option value="3500">UNIVERSE — $3,500 · Operations + interactive visual environment</option>
+</select>
+<label for="depth">Customization depth</label><select id="depth"><option value="0">Essential — included</option><option value="600">Tailored — +$600</option><option value="1500">Bespoke — +$1,500</option></select>
+<label for="infra">Infrastructure complexity</label><select id="infra"><option value="0">Local files + Obsidian — included</option><option value="500">Local server + validated JSON — +$500</option><option value="1200">Local server + API feasibility/connector allowance — +$1,200</option></select>
+<label for="aesthetic">Aesthetic treatment</label><select id="aesthetic"><option value="0">Functional interface — included</option><option value="400">Branded visual identity — +$400</option><option value="1200">Illustrated business world — +$1,200</option></select>
+<label for="support">Optional ongoing support</label><select id="support"><option value="0">None — $0/month</option><option value="75">Light support — $75/month</option><option value="200">Managed support — $200/month</option></select></section>
+<section><h2>03 / Tell us what needs simplifying</h2>
+<label for="workflow">What are the three biggest workflow headaches?</label><textarea id="workflow" rows="4" placeholder="Inventory counts, delivery tracking, event planning..."></textarea>
+<fieldset><legend>What matters most?</legend><div class="checks" id="modules">
+<label><input type="checkbox" value="UPSTAIRS / Grocery List"> UPSTAIRS / Grocery List</label>
+<label><input type="checkbox" value="Hardware Store"> Hardware Store</label>
+<label><input type="checkbox" value="Calendar / events"> Calendar / events</label>
+<label><input type="checkbox" value="Directory / contacts"> Directory / contacts</label>
+<label><input type="checkbox" value="Deliveries"> Deliveries</label>
+<label><input type="checkbox" value="Local agents"> Local agents</label>
+<label><input type="checkbox" value="WATCH / animated environment"> WATCH / animated environment</label>
+<label><input type="checkbox" value="Shared multi-industry supplies"> Shared multi-industry supplies</label>
+</div></fieldset>
+<div class="row"><div><label for="pos">Existing inventory/POS software (name only)</label><input id="pos" placeholder="Optional"></div><div><label for="timeline">Ideal timeline</label><input id="timeline" placeholder="Optional"></div></div>
+<label for="notes">Anything else? Limits, budget, privacy needs, brand assets</label><textarea id="notes" rows="3" placeholder="Do not include passwords, account numbers, or confidential customer data."></textarea>
+<label><input id="consent" type="checkbox"> I agree to be contacted about this commission inquiry.</label>
+</section></div>
+<aside><div class="result" id="result"><div class="kicker">LIVE PLANNING ESTIMATE · USD</div><p style="margin:10px 0 5px">Estimated project subtotal <span class="fine" id="scheduleName"></span></p><div class="estimate" id="total">$0</div>
+<div class="range" id="range"></div><p class="fine">Indicative range (85%–125%). Not a binding quote. Optional support shown separately.</p>
+<dl id="breakdown"></dl><p class="fine">Compare all three schedules for your current choices:</p><div id="compareRates" class="compare"></div><div class="warn">MONKISM prices are your editable rates; the other schedules are illustrative project budgets informed by agency benchmarks, not guaranteed industry quotes. Taxes, travel, hosting, hardware, third-party charges and major custom integrations are excluded. No payment is taken here.</div>
+<p class="fine" id="monthly"></p>
+<button type="button" id="emailBtn">Open email inquiry</button><button type="button" class="secondary" id="printBtn">Print / Save PDF</button>
+<button type="button" class="secondary" id="jsonBtn">Download request JSON</button>
+<div id="feedback" role="status"></div>
+<p class="fine">Email opens your mail app. A static page cannot send submissions by itself. To receive inquiries automatically, connect a form service or your website's native form backend.</p>
+</div></aside></div>
+<footer><p class="fine">PRIVATE CONSULTING TEMPLATE · MONKISM × IGMUS · ART FORT 321 · Version 1.2<br>Do not enter sensitive credentials or financial account information. A discovery call determines actual scope, deliverables, compatibility, and price.</p></footer></main>
+<script>
+'use strict';
+/* EDIT BEFORE PUBLISHING: replace with the address that should receive commission requests. */
+const CONSULTANT_EMAIL='REPLACE_WITH_YOUR_EMAIL@example.com';
+const $=id=>document.getElementById(id);
+const money=n=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0}).format(n);
+const checked=id=>Array.from(document.querySelectorAll('#'+id+' input:checked')).map(el=>el.value);
+const selected=id=>$(id).options[$(id).selectedIndex].text.split(' — ')[0];
+const RATE_SCHEDULES={
+ monkism:{label:'MONKISM',edition:[750,1750,3500],industry:450,location:250,depth:[0,600,1500],infra:[0,500,1200],aesthetic:[0,400,1200],support:[0,75,200]},
+ market:{label:'INDUSTRY REFERENCE',edition:[3000,8500,18000],industry:1800,location:1100,depth:[0,2500,6500],infra:[0,2500,6500],aesthetic:[0,1500,5000],support:[0,250,750]},
+ major:{label:'MAJOR CONTRACT',edition:[10000,25000,55000],industry:6000,location:3500,depth:[0,7500,18000],infra:[0,9000,24000],aesthetic:[0,5000,16000],support:[0,900,2500]}
+};
+const idx=id=>$(id).selectedIndex;
+function quote(plan){
+ const r=RATE_SCHEDULES[plan], edition=r.edition[idx('edition')],size=Number($('size').value), industries=checked('industries');
+ const adjusted=edition*size, extraIndustries=Math.max(0,industries.length-1)*r.industry,extraLocations=(Number($('locations').value)-1)*r.location;
+ const depth=r.depth[idx('depth')],infra=r.infra[idx('infra')],aesthetic=r.aesthetic[idx('aesthetic')],support=r.support[idx('support')];
+ const lines=[['Edition × size',adjusted],['Additional industries',extraIndustries],['Additional locations',extraLocations],['Customization',depth],['Infrastructure',infra],['Aesthetics',aesthetic]];
+ return {total:lines.reduce((n,row)=>n+row[1],0),support,lines};
+}
+function compute(){
+ const plan=$('ratePlan').value,calc=quote(plan),total=calc.total,support=calc.support,industries=checked('industries');
+ const schedule=RATE_SCHEDULES[plan];
+ const editionNames=['ORGANIZER','OPERATIONS','UNIVERSE'];
+ Array.from($('edition').options).forEach((opt,i)=>opt.textContent=editionNames[i]+' — '+money(schedule.edition[i]));
+ Array.from($('depth').options).forEach((opt,i)=>opt.textContent=['Essential','Tailored','Bespoke'][i]+' — '+(i?'+'+money(schedule.depth[i]):'included'));
+ Array.from($('infra').options).forEach((opt,i)=>opt.textContent=['Local files + Obsidian','Local server + validated JSON','Local server + API connector allowance'][i]+' — '+(i?'+'+money(schedule.infra[i]):'included'));
+ Array.from($('aesthetic').options).forEach((opt,i)=>opt.textContent=['Functional interface','Branded visual identity','Illustrated business world'][i]+' — '+(i?'+'+money(schedule.aesthetic[i]):'included'));
+ Array.from($('support').options).forEach((opt,i)=>opt.textContent=['None','Light support','Managed support'][i]+' — '+money(schedule.support[i])+'/month');
+ $('scheduleName').textContent='· '+RATE_SCHEDULES[plan].label;
+ $('total').textContent=money(total);$('range').textContent=money(Math.round(total*.85))+' – '+money(Math.round(total*1.25));
+ $('breakdown').innerHTML=calc.lines.map(([name,n])=>'<dt>'+name+'</dt><dd>'+money(n)+'</dd>').join('');
+ $('compareRates').innerHTML=Object.keys(RATE_SCHEDULES).map(k=>'<button type="button" data-rate="'+k+'" class="'+(k===plan?'active':'')+'">'+RATE_SCHEDULES[k].label+' <span>'+money(quote(k).total)+'</span></button>').join('');
+ $('compareRates').querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>{$('ratePlan').value=b.dataset.rate;compute();}));
+ $('monthly').textContent='Optional support: '+money(support)+'/month (not included above)';
+ return {total,rateSchedule:RATE_SCHEDULES[plan].label,rangeLow:Math.round(total*.85),rangeHigh:Math.round(total*1.25),supportMonthly:support,breakdown:Object.fromEntries(calc.lines),
+ business:$('business').value.trim(),contact:$('contact').value.trim(),email:$('email').value.trim(),
+ size:selected('size'),locations:Number($('locations').value),industries,edition:selected('edition'),depth:selected('depth'),infrastructure:selected('infra'),
+ aesthetics:selected('aesthetic'),support:selected('support'),modules:checked('modules'),workflow:$('workflow').value.trim(),pos:$('pos').value.trim(),timeline:$('timeline').value.trim(),notes:$('notes').value.trim(),consent:$('consent').checked};
+}
+function summary(x){
+ return ['SMALL BUSINESS UNIVERSE COMMISSION INQUIRY','Business: '+x.business,'Contact: '+x.contact,'Email: '+x.email,
+ 'Industries: '+(x.industries.join(', ')||'Not specified'),'Size: '+x.size,'Locations: '+x.locations,
+ 'Edition: '+x.edition,'Customization: '+x.depth,'Infrastructure: '+x.infrastructure,'Aesthetics: '+x.aesthetics,'Support: '+x.support,
+ 'Requested modules: '+x.modules.join(', '),'Workflows: '+x.workflow,'Current software: '+x.pos,'Timeline: '+x.timeline,'Notes: '+x.notes,
+ 'Rate schedule: '+x.rateSchedule,'Planning subtotal: '+money(x.total),'Indicative range: '+money(x.rangeLow)+' to '+money(x.rangeHigh),'Optional monthly support: '+money(x.supportMonthly),
+ 'This is a nonbinding planning estimate; discovery and written scope are required.'].join('\n');
+}
+document.querySelectorAll('input,select,textarea').forEach(el=>el.addEventListener('input',compute));
+$('emailBtn').addEventListener('click',()=>{
+ const x=compute();
+ if(!x.business||!x.contact||!x.email||!x.consent){$('feedback').textContent='Enter business, contact, reply email, and check contact permission.';return;}
+ if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(x.email)){$('feedback').textContent='Please enter a valid reply email.';return;}
+ if(CONSULTANT_EMAIL.startsWith('REPLACE_')){$('feedback').textContent='Site owner: set CONSULTANT_EMAIL in the HTML before publishing.';return;}
+ const subject='Business Universe inquiry — '+x.business;
+ const link='mailto:'+encodeURIComponent(CONSULTANT_EMAIL)+'?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(summary(x));
+ if(link.length>1900){$('feedback').textContent='Your inquiry is long. Download JSON or print PDF; shorten notes for email.';return;}
+ window.location.href=link;$('feedback').textContent='Your mail application should open. Press Send there to submit.';
+});
+$('printBtn').addEventListener('click',()=>window.print());
+$('jsonBtn').addEventListener('click',()=>{
+ const data=JSON.stringify({schema:'artfort321.commission.v1',generatedAt:new Date().toISOString(),...compute()},null,2);
+ const a=document.createElement('a');const u=URL.createObjectURL(new Blob([data],{type:'application/json'}));
+ a.href=u;a.download='business-universe-inquiry.json';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),1000);
+ $('feedback').textContent='Inquiry JSON saved locally.';
+});
+compute();
+</script></body></html>
